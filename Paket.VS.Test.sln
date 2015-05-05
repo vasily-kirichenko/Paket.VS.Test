@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Paket.VS.Test", "Paket.VS.Test\Paket.VS.Test.fsproj", "{66E9E9F4-DE8C-43BF-9732-D3E803C00F0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{02CD47C9-8397-430A-B9EC-2681B5FCF6BB}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E9E9F4-DE8C-43BF-9732-D3E803C00F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E9E9F4-DE8C-43BF-9732-D3E803C00F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E9E9F4-DE8C-43BF-9732-D3E803C00F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E9E9F4-DE8C-43BF-9732-D3E803C00F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
